@@ -1,0 +1,37 @@
+body {
+  /*Define un background color para el HTML */
+  background-color: #fedead;
+}
+
+h1 {
+  /*Define un titulo principal*/
+  color: #9acd32;
+}
+
+p {
+  /*Haz que el parrafo se visualice en 3 columnas*/
+  column-count: 3;
+}
+
+h1:hover {
+  /*Cuando nos situemos sobre el H1 queremos que el color del texto cambie*/
+  color: #ff0000;
+}
+
+p::selection {
+  /*Cuando seleccionemos el texto del parrafo, queremos que cambie el background y el color del texto*/
+  background-color: #000000;
+  color: #ff0000;
+}
+
+p{
+    /*La sepracion entre columnas debera de ser de 40px*/
+    column-gap: 40px;
+}
+
+p{
+    /*Finalmente, define una regla que separe a cada una de las columnas de 2px y que sea roja F*/
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: red;
+}

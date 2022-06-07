@@ -1,0 +1,32 @@
+body{
+    background-color: #e6e6fa;
+}
+
+table{
+    background-color: #ffe4c4;
+    border: 5px solid;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+}
+
+caption {
+    background-color: #00bfff;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: 1000;
+}
+
+td{
+    border-bottom: 3px solid;
+    border-left: 1px solid;
+}
+
+.tr_no_border > td{ 
+    border:none;
+}
+
+tr:last-child > td{
+    background-color: #00bfff;
+    text-align: center;
+    font-weight: 1000;
+}

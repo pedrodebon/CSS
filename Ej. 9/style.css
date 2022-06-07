@@ -1,0 +1,28 @@
+body{
+    background-color: #ffe4c4;
+}
+
+div {
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    padding: 5px;
+    width: 40%;
+    border-style: solid;
+    background-color: #efefef;
+}
+
+#p_top{
+    text-align: left;
+}
+
+#p_center{
+    text-align: center;
+}
+
+#p_bottom{
+    text-align: right;
+}
