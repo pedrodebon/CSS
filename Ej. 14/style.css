@@ -1,0 +1,120 @@
+body{
+    background-color: aqua;
+}
+
+div{
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    z-index: 0;
+    position: absolute;
+}
+
+.d_impar{
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 1000px;
+}
+
+.d_par{
+    background-color: red;
+    border: 1px black solid;
+    border-radius: 1000px;
+}
+
+#d_1{
+    height: 500px;
+    width: 500px;
+    z-index: 10;
+}
+
+#d_2{
+    height: 450px;
+    width: 450px;
+    z-index: 20;
+    bottom: 21px;
+    right: 20px;
+}
+
+#d_3{
+    height: 400px;
+    width: 400px;
+    z-index: 30;
+    bottom: 44px;
+    right: 42px;
+}
+
+#d_4{
+    height: 350px;
+    width: 350px;
+    z-index: 40;
+    bottom: 66px;
+    right: 66px;
+}
+
+#d_5{
+    height: 300px;
+    width: 300px;
+    z-index: 50;
+    bottom: 90px;
+    right: 90px;
+}
+
+#d_6{
+    height: 250px;
+    width: 250px;
+    z-index: 60;
+    bottom: 113px;
+    right: 113px;
+}
+
+#d_7{
+    height: 200px;
+    width: 200px;
+    z-index: 70;
+    bottom: 137px;
+    right: 137px;
+}
+
+#d_8{
+    height: 150px;
+    width: 150px;
+    z-index: 80;
+    bottom: 160px;
+    right: 160px;
+}
+
+#d_9{
+    height: 100px;
+    width: 100px;
+    z-index: 90;
+    bottom: 184px;
+    right: 184px;
+}
+
+#d_10{
+    height: 50px;
+    width: 50px;
+    z-index: 100;
+    bottom: 209px;
+    right: 209px;
+}
+
+#d_11{
+    height: 5px;
+    width: 500px;
+    z-index: 200;
+    background-color: black;
+    bottom: 232px;
+    right: 0px;
+}
+
+#d_12{
+    height: 500px;
+    width: 5px;
+    z-index: 200;
+    background-color: black;
+    bottom: 0px;
+    right: 232px;
+}

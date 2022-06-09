@@ -1,0 +1,35 @@
+div{
+    height: 800px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div[id^="circulo_"]{
+    border: 1px black solid;
+    border-radius: 500px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+
+#circulo_rojo{
+    /*background-color: #ff0000;*/
+    background-color: rgba(255,0,0,0.50);
+    top: -90px;
+    right: -160px;
+}
+
+#circulo_azul{
+    /*ackground-color: #00f;*/
+    background-color: rgba(0,0,255,0.50);
+    top: 70px;
+}
+
+#circulo_verde{
+    /*background-color: #00ff00;*/
+    background-color: rgba(0,255,0,0.50);
+    top: -90px;
+    right: 160px;
+}
